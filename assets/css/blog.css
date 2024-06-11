@@ -1,6 +1,33 @@
-#circle {
-    width: 200px;
-    height: 200px;
-    background-color: linear-gradient(to top bottom yellow,gold);
-    border-radius: 100%;
-  }
+.border {
+  border-top: double;
+}
+ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 18px;
+  font-family: sans-serif;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+  display:flex;
+  flex-direction: column;
+  background-color: rgba(206, 175, 1, 0.568);
+  padding: 10px 10px;
+}
+
+.line-wrap {
+  margin-bottom:10px;
+}
+
+.line{
+  width: 100%;
+  background-color: transparent;
+  border: double;
+  font-size: 20px;
+}
