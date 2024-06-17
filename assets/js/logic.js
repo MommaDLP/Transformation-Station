@@ -1,11 +1,17 @@
-const themeswitcher = document.querySelector('#theme-switcher')
-const container = document.querySelector('.container');
-let mode = 'light'
-// we need to click the toggle over from light to dark//
-themeswitcher.addEventListener('click', function() {
-if (mode === 'light') {
-    mode = 'dark';
-container.setAttribute('class', 'dark');
-} else {mode = 'light';
-container.setAttribute('class', 'light');}
-});
+let modeChange = document.getElementsByClassName('mode')
+
+for (let i = 0; i < modeChange.length; i++) {
+    const element = modeChange[i];
+
+    element.addEventListener('click', function(event){
+        console.log(event.target.value);
+        if (event.target.value ==='dark') {
+            document.body.classList.add('dark')
+            document.body.classList.remove('light')
+        }else{
+            document.body.classList.add('light')
+            document.body.classList.remove('dark')
+        }
+    })
+    
+}
