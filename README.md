@@ -24,10 +24,10 @@ Deploy <br>
 https://mommadlp.github.io/Transformation-Station/
 
 ## Webpage Views
-<img src="assets\images\Screenshot 2024-06-18 135051.png" alt="first page light mode"/><br>
-<img src="assets\images\Screenshot 2024-06-18 135104.png" alt="first page dark mode"/><br>
-<img src="assets\images\Screenshot 2024-06-18 135030.png" alt="Second page light mode"/><br>
-<img src="assets\images\Screenshot 2024-06-18 135040.png" alt="Second page dark mode"/>
+<img src="assets\images\firstpage1.png" alt="first page light mode"/><br>
+<img src="assets\images\firstpage2.png" alt="first page dark mode"/><br>
+<img src="assets\images\secondpage1.png" alt="Second page light mode"/><br>
+<img src="assets\images\secondpage2.png" alt="Second page dark mode"/>
 
 ## Assistants
 <ul>
