@@ -19,12 +19,12 @@
             Transformation Station 
          </div>
 
-         <form id="coolForm">
+         <form class="coolForm" id="blogForm"> <!--need for js input-->
             <h1>Let's Type It Out!</h1>
             <!--right side input fields-->
-            <label for="user">Username:</label>
+            <label for="username">Username:</label>
             <br>
-            <input type="text" id="user"  name="user">
+            <input type="text" id="username"  name="username">
             <br>
 
             <label for="title">Title:</label>
@@ -32,16 +32,17 @@
             <input type="text" id="title" name="title">
             <br>
 
-            <label for="msg">Comment:</label>
+            <label for="comment">Comment:</label>
             <br>
-            <textarea id="msg" name="comment">
+            <textarea id="comment" name="comment">
             </textarea>
             <br>
 
-            <button class="submit" value="Submit" id="submit"> Submit</button>
-         </form>
+            <button class="submit" type="submit" id="submit"> Submit</button>
+         <!--need id for js input-->
 
-        <script src="./assets/js/logic.js"></script>
-        <script src="./assets/js/form.js"></script>
+          <script src="./assets/js/logic.js"></script>
+          <script src="./assets/js/form.js"></script>
+        </form>
      </body>
 </html>

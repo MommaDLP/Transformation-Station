@@ -4,7 +4,26 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+html{
+  justify-content: center;
+  align-items: center;
+  padding: 5% 5% 5%;
+  color: rgb(29, 243, 207);
+}
 
+.button1, .button2 {
+  float: right;
+  margin-right: 2px;
+  font-size: 20px;
+}
+
+.dark{
+  background-color: rgb(44, 43, 43);
+}
+
+.light{
+  background-color:rgb(2, 82, 114) ;
+}
 
 .circle {
   width: 600px;
@@ -23,12 +42,14 @@
 form {
   font-size: 30px;
   width: 50%;
-  background-color:white;
-  color: #00050c;
+  background-color:rgb(2, 82, 114);
   float: right;
   flex-direction: column;
   display: flex;
+}
 
+label{
+  color: #eeb20c;
 }
 
  body {
@@ -36,13 +57,14 @@ form {
  display: flex;
  border-style: double;
  justify-content: space-evenly;
-
+ margin: 0;
+ background-color:rgb(2, 82, 114);
  }
 
 .submit {
-  background-color: rgb(12, 9, 9);
+  background-color: #eeb20c;
   border-radius:0px;
-  color: #eeb20c;
+  color:rgb(29, 243, 207) ;
   cursor: pointer;
   font-size: 1.2em;
   letter-spacing: 0.21px;
@@ -60,3 +82,4 @@ form div input{
     width: 90%;
 
 }
+
