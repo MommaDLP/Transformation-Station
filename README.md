@@ -40,4 +40,4 @@ https://github.com/swlodawski
 <li>Xpert Assistant</li>
 
 ## License
-NONE
+NONE..
